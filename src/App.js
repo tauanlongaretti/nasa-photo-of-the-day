@@ -1,13 +1,16 @@
 import React from "react";
+import Apod from "./Components/Apod/Apod"
+import Info from "./Components/Info/Info"
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <h2>
+        🚀 Welcome to Tauan's NASA Photo of The Day App! 🚀
+      </h2>
+      <Apod />
+      <Info />
     </div>
   );
 }
